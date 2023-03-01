@@ -14,6 +14,7 @@ public class SeleniumAlert {
         driver.manage().window().maximize();
         System.out.println("Maximize Browser");
 
+        //alert dan iframe pakai switchTo
         String title = driver.findElement(By.className("main-header")).getText();
         System.out.println("Title page :  "+title);
         //alert button
